@@ -1,0 +1,51 @@
+ 
+
+
+
+public class personalcode
+{
+    public static void main (String args[])
+    {
+        System.out.print("enter first name (all CAPS) ===>>  ");
+        String name = Expo.enterString();
+        if(name = GINI)
+        {System.out.println("Welcome Cocanower!");
+        System.out.println("Where would you like to go?");
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println("here are your options.");
+        System.out.println("(1) - story");
+        System.out.println("(2) - poem");
+        System.out.println("(3) - joke");
+        System.out.println("(4) - don't pick");
+        System.out.print("enter your option number ===>>   ");
+        String option = expo.enterString();
+        System.out.println();
+        System.out.println();
+    }
+        else
+        {
+        System.out.println();
+        System.out.println("your not my teacher!");
+    }
+        switch (option)
+        {
+            case "1"    :System.out.println("There once was a boy named Matthew.");
+                         System.out.println("He loved to write code.");
+                         System.out.println("When asked what he wanted to do he simply replied with:");
+                         System.out.println("I will change the world with the use of computers");
+                         System.out.println("be that writing code or physicaly building technologies in the dark corner.");
+                         System.out.println("and with that He made his way."); break; 
+            case "2"    :System.out.println("this is a poem, im not good at witing poems"); break;
+            case "3"    :System.out.print("why did the chicken cross the road? ===>   ");
+                                string answer = expo.enterString();
+                         if(answer = "to get to the other side")
+                         system.out.println("To get to the.... wait how did you know that?");
+                         else
+                         System.out.println("no, to get to the other side!"); break;
+            case "4"    :System.out.println("NO, I SAID DOONT PICK THIS!!"); break;
+        }
+  }
+    
+}
