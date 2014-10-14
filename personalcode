@@ -1,4 +1,4 @@
- 
+
 
 
 
@@ -9,7 +9,8 @@ public class personalcode
         System.out.print("enter first name (all CAPS) ===>>  ");
         String name = Expo.enterString();
         if(name = GINI)
-        {System.out.println("Welcome Cocanower!");
+     {
+        System.out.println("Welcome Cocanower!");
         System.out.println("Where would you like to go?");
         System.out.println();
         System.out.println();
@@ -23,7 +24,7 @@ public class personalcode
         String option = expo.enterString();
         System.out.println();
         System.out.println();
-    }
+     }
         else
         {
         System.out.println();
@@ -37,14 +38,14 @@ public class personalcode
                          System.out.println("I will change the world with the use of computers");
                          System.out.println("be that writing code or physicaly building technologies in the dark corner.");
                          System.out.println("and with that He made his way."); break; 
-            case "2"    :System.out.println("this is a poem, im not good at witing poems"); break;
+            case "2"    :System.out.println("this is a poem, IM not good at witing poems"); break;
             case "3"    :System.out.print("why did the chicken cross the road? ===>   ");
                                 string answer = expo.enterString();
                          if(answer = "to get to the other side")
                          system.out.println("To get to the.... wait how did you know that?");
                          else
                          System.out.println("no, to get to the other side!"); break;
-            case "4"    :System.out.println("NO, I SAID DOONT PICK THIS!!"); break;
+            case "4"    :System.out.println("NO, I SAID DO00ONT PICK THIS!!"); break;
         }
   }
     
